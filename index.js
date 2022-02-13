@@ -1,14 +1,10 @@
-function changeImage(){
-    let element = document.getElementById("changeimg")
-    element.src = element.src ==="img/save.png" ? "img/black.png" : "img/save.png";
+function changeImage(value){
+    let element = document.getElementById(value);
+    element.src = element.src.includes("img/save.png") ? "img/black.png" : "img/save.png";
 }
 
-
-// const Title= title;
-
-
-// const card= [
-// 	Title: ,
-// 	Name 
-
-// ]
+window.onload = () => {
+    itemData.forEach((card) => {
+        createCard(card);
+    })
+}
