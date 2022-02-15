@@ -3,15 +3,15 @@ function createCard({ id, profileimg, username, location, post_image }) {
   let code = `
 			<div class="card-wrapper">
 			<div class="wrapper_top">
-				<a href="" class="profile_img_a"
+				<a class="profile_img_a"
 				><img src="${profileimg}" class="profile_img" />
 				</a>
 
 				<div class="profile_desc">
-				<a href=""><h4>${username}</h4></a>
-				<a href=""><h5>${location}</h5></a>
+				<a><h4>${username}</h4></a>
+				<a><h5>${location}</h5></a>
 				</div>
-				<a href="" class="ellipsis_img_a"
+				<a class="ellipsis_img_a"
 				><img src="img/ellipsis_h.png" class="ellipsis_img" />
 				</a>
 			</div>
@@ -22,17 +22,17 @@ function createCard({ id, profileimg, username, location, post_image }) {
 
 			<div class="wrapper_bottom">
 				<div class="reaction_wrapper">
-				<a href=""><img src="img/heart.png" /></a>
-				<a href=""><img src="img/messagereaction.png" /></a>
-				<a href=""><img src="img/message.png" /></a>
-				<img src="img/save.png" id="bookmark-${id}" onclick="changeImage('bookmark-${id}')" />
+				<a ><img src="img/heart.png" id= "heart-${id}" onclick="changeHeart('heart-${id}')"/></a>
+				<a><img src="img/messagereaction.png" /></a>
+				<a><img src="img/message.png" /></a>
+				<a><img src="img/save.png" id="bookmark-${id}" onclick="changeBookmark('bookmark-${id}')" /></a>
 				</div>
 			</div>
 			<div class="line"></div>
 			<div class="wrapper_last">
 				<div class="last_container">
 				<div>
-					<a href="" class="last_container_a"
+					<a class="last_container_a"
 					><img src="img/smiley.png"
 					/></a>
 				</div>
