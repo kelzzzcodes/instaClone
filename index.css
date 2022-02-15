@@ -34,6 +34,7 @@ body {
 }
 .logo_section img {
   width: 120px;
+  object-fit: cover
 }
 .search_section {
   display: flex;
@@ -53,6 +54,7 @@ body {
   height: 15px;
   width: 15px;
   padding: auto;
+  object-fit: cover
 }
 .search_section input {
   background-color: #fafafafa;
@@ -82,19 +84,19 @@ body {
 .home_img {
   width: 30px;
   height: 30px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .message_img {
   width: 30px;
   height: 30px;
   margin: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 .add_photo_img {
   width: 24px;
   height: 24px;
   margin: auto;
-  object-fit: contain;
+ object-fit: cover;
 }
 .compass_img {
   width: 28px;
@@ -106,7 +108,7 @@ body {
   width: 28px;
   height: 28px;
   margin: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .avatar_image_img {
@@ -147,6 +149,7 @@ figure img {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid red;
+  object-fit: cover
 }
 .left_aside {
   display: flex;
@@ -197,20 +200,22 @@ figure img {
 }
 
 .ellipsis_img_a {
-  margin: 15px 0px 0px 200px;
+  margin: 15px 0px 0px 240px;
   padding: 5px;
   display: flex;
+  object-fit: cover
 }
 .ellipsis_img {
   width: 25px;
   height: 25px;
-  object-fit: contain;
+  object-fit: cover;
   overflow: hidden;
 }
 
 .wrapper_center img {
   object-fit: cover;
   width: 100%;
+  object-fit: cover
 }
 .wrapper_bottom {
   display: flex;
@@ -226,6 +231,7 @@ figure img {
   width: 30px;
   height: 30px;
   object-fit: contain;
+  object-fit: cover
 }
 
 .reaction_wrapper a:last-child {
@@ -242,6 +248,7 @@ figure img {
 .last_container img {
   width: 25px;
   height: 25px;
+  object-fit: cover
 }
 
 .last_container .input_section {
@@ -272,6 +279,7 @@ figure img {
   right: 0;
   flex-direction: column;
 }
+
 .right_aside .container {
   margin: 120px 0px 0px 100px;
   display: flex;
@@ -283,7 +291,7 @@ figure img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  object-fit: cover;
+ object-fit: cover;
 }
 
 .profile_block_desc {
@@ -310,7 +318,7 @@ figure img {
 }
 
 .botttom_container {
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 20px 100px;
   display: flex;
 }
 
